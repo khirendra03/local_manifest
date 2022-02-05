@@ -13,7 +13,10 @@
 <remote  name="rk"
            fetch="https://github.com/asus-sdm660-devs" />
            
-           
+     
+<remote  name="mvaisakh"
+           fetch="https://github.com/mvaisakh" />
+      
            
  <!-- Trees -->
  <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="khirendra" revision="radiant-12" />
