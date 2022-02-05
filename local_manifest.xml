@@ -12,8 +12,10 @@
 
 <remote  name="rk"
            fetch="https://github.com/asus-sdm660-devs" />
-           
-     
+   
+<remote  name="aclng14"
+           fetch="https://gitlab.com/arrowos-project" />        
+  
 <remote  name="mvaisakh"
            fetch="https://github.com/mvaisakh" />
       
