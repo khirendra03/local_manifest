@@ -7,27 +7,14 @@
 <remote  name="kernel"
            fetch="https://github.com/ArrowOS-Devices" />
 
-<remote  name="fix"
-           fetch="https://github.com/LineageOS" />
-
 <remote  name="rk"
            fetch="https://github.com/asus-sdm660-devs" />
- 
-<remote  name="radio_fix"
-           fetch="https://github.com/ArrowOS" />
-      
-<remote  name="hals_fix"
-           fetch="https://github.com/aex-tmp" />
       
      
  <!-- Trees -->
- <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="khirendra" revision="spark" />
+ <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="khirendra" revision="evo" />
  <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="kernel" revision="voltage-12" />
  <project path="vendor/asus" name="proprietary_vendor_asus" remote="rk" revision="lineage-19.0" />
  <project path="kernel/asus/sdm660" name="android_kernel_asus_X01BD" remote="khirendra" revision="arrow-12.0" />
  
- <!-- fix -->
- <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="radio_fix" revision="arrow-11.0" />
- <project path="device/qcom/sepolicy-legacy-um" name="aex-tmp/platform_device_qcom_sepolicy" remote="hals_fix" revision="12.x-legacy-um" />
-
 </manifest>
