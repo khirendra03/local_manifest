@@ -24,8 +24,4 @@
  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="mvaisakh" revision="gcc-master" />
  <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="aclng14" revision="master" />
 
- <!-- display hal -->
- <remove-project name="LineageOS/android_hardware_qcom_display" />
- <project path="hardware/qcom-caf/msm8998/display" name="android_packages_resources_devicesettings" remote="hal" revision="lineage-19.1-caf-msm8998" />
-
 </manifest>
