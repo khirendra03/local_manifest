@@ -5,7 +5,10 @@
            fetch="https://github.com/khirendra03" />
 
 <remote  name="volt"
-         fetch="https://github.com/VoltageOS-staging" />           
+         fetch="https://github.com/VoltageOS-staging" />
+
+<remote  name="compiler"
+         fetch="https://gitlab.com/arrowos-project" />         
            
   <!-- Trees -->
   <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="khirendra" revision="blaze" clone-depth="1" />
@@ -17,8 +20,12 @@
   <project path="packages/apps/GCamGOPrebuilt" name="packages_apps_GCamGOPrebuilt" remote="khirendra" revision="main" clone-depth="1" />
 
   <!-- hals -->
-    <remove-project name="android_hardware_qcom_audio"/>
-    <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio" remote="volt" revision="13-msm8998" clone-depth="1" />
-    <remove-project name="android_hardware_qcom_display"/>
-    <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display" remote="volt" revision="13-msm8998" clone-depth="1" />
+  <remove-project name="android_hardware_qcom_audio"/>
+  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio" remote="volt" revision="13-msm8998" clone-depth="1" />
+  <remove-project name="android_hardware_qcom_display"/>
+  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display" remote="volt" revision="13-msm8998" clone-depth="1" />
+
+  <!-- clang -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="compiler" revision="master" clone-depth="1" />    
+  
 </manifest>
