@@ -7,6 +7,9 @@
 <remote name="varun" 
               fetch="https://gitlab.com/varunhardgamer" />
 
+<remote name="volt"
+      		  fetch="https://github.com/karthik1896" />
+
   <!-- Trees -->
   <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="khirendra" revision="13" clone-depth="1" />
   <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="khirendra" revision="13-test" clone-depth="1" />
@@ -16,6 +19,11 @@
   <!-- clang -->
   <remove-project name="varunhardgamer/trb_clang"/>
   <project path="prebuilts/clang/host/linux-x86/trb_clang" name="trb_clang" clone-depth="1" revision="14" remote="varun" />  
-      
+
+  <!-- hals -->
+  <remove-project name="hardware_qcom_media"/>    
+  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="volt" revision="13" clone-depth="1" />
+  <remove-project name="hardware_qcom_display"/>
+  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="volt" revision="13" clone-depth="1" />    
 
 </manifest>
