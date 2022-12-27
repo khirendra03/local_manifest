@@ -19,10 +19,4 @@
   <!-- clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" clone-depth="1" revision="master" remote="varun" />  
 
-  <!-- hals -->
-  <remove-project name="hardware_qcom_media"/>    
-  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="volt" revision="13" clone-depth="1" />
-  <remove-project name="hardware_qcom_display"/>
-  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="volt" revision="13" clone-depth="1" />    
-
 </manifest>
