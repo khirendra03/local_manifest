@@ -14,7 +14,7 @@
 		      fetch="https://gitlab.com/ImSurajxD" />
 
 <remote name="sonal"
-		      fetch="https://gitlab.com/ImSurajxD" />		      
+		      fetch="https://github.com/ArrowOS-Devices" />		      
 
   <!-- Trees -->
   <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="khirendra" revision="13" clone-depth="1" />
