@@ -36,6 +36,6 @@
 
   <!-- HALs -->
   <remove-project name="hardware_qcom_display"/>
-  <project path="hardware/qcom-caf/sdm660/display" name="hardware_qcom_display" remote="khirendra" revision="13-msm8998" clone-depth="1" />
+  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display" remote="khirendra" revision="13-msm8998" clone-depth="1" />
 
 </manifest>
