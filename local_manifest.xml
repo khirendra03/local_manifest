@@ -34,4 +34,8 @@
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" clone-depth="1" revision="master" remote="prcl" />
 
+  <!-- HALs -->
+  <remove-project name="hardware_qcom_display"/>
+  <project path="hardware/qcom-caf/sdm660/display" name="hardware_qcom_display" remote="khirendra" revision="13-msm8998" clone-depth="1" />
+
 </manifest>
